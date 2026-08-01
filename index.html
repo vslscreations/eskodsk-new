@@ -10,6 +10,37 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.statistics.value-list li {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 0.5rem;
+			}
+
+			.statistics.value-list li .icon {
+				display: block;
+				margin: 0 auto;
+			}
+
+			.statistics.value-list li strong,
+			.statistics.value-list li b {
+				font-size: 1rem;
+				line-height: 1.4;
+				font-weight: 600;
+				letter-spacing: 0;
+				max-width: 20ch;
+				margin: 0 auto;
+			}
+
+			@media screen and (max-width: 736px) {
+				.statistics.value-list li strong,
+				.statistics.value-list li b {
+					font-size: 1rem;
+				}
+			}
+		</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,7 +52,7 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.png" alt="" /></span>
 						<h1>EskoDSK AI</h1>
-						<p>The Virtual Employee Every Small Business Can Afford.<br />
+						<p>The Digital Business Companion for Small Businesses<br />
 					   </p>
 					</header>
 
@@ -29,8 +60,8 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Meet Avery</a></li>
-							<li><a href="#first">Why EskoDSK AI?</a></li>
-							<li><a href="#second">How We Can Help</a></li>
+							<li><a href="#first">Why EskoDSK?</a></li>
+							<li><a href="#second">What Makes It Different?</a></li>
 							<li><a href="#cta">Get Started</a></li>
 							<li><a href="founding-partners-program.html">Founding Partners Program</a></li>
 							<li><a href="business-development-program.html">Business Development Program</a></li>
@@ -45,9 +76,13 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Meet Avery Your First Virtual Employee</h2>
+											<h2>Meet Avery, Your First Virtual Employee</h2>
 										</header>
-										<p>Meet Avery, the future of business support. Avery is an virtual employee designed to work alongside your team by handling everyday customer needs, organizing requests, and providing instant assistance whenever your business needs it. With Avery on your team, you can respond faster, reduce repetitive tasks, and create a better experience for your customers—all while giving your employees more time to focus on growing your business.</p>
+										<p>EskoDSK develops Virtual Employees that work alongside small businesses by handling customer communication, organizing requests, automating repetitive tasks, and helping business owners operate more efficiently.</p>
+										<p>Avery is the first Virtual Employee built on the EskoDSK platform. Today, Avery helps businesses communicate faster and work smarter. Tomorrow, Avery and future Virtual Employees will become even more intelligent, interactive, and personalized, evolving into trusted digital companions that grow with your business.</p>
+										<ul class="actions">
+											<li><a href="book-demo.html" class="button primary">Book a Free Demo</a></li>
+										</ul>
 									</div>
 									<span class="image"><img src="images/pic01.png" alt="" /></span>
 								</div>
@@ -56,25 +91,38 @@
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
-									<h2>Why EskoDSK AI?</h2>
+									<h2>Why EskoDSK?</h2>
+									<p>Technology shouldn't replace business owners. It should empower them.</p>
+									<p>Traditional software gives you tools to manage your business. EskoDSK gives you a Virtual Employee that works with your business.</p>
 								</header>
+								<p>Every EskoDSK Virtual Employee is customized to your workflows, customers, and goals, helping your team save time, improve customer experiences, and focus on growing the business instead of managing repetitive tasks.</p>
 								<ul class="features">
 									<li>
 										<span class="icon major style5 fa-gem"></span>
-										<h3>Affordability</h3>
-										<p>Get the support your business needs without the cost of hiring another full-time employee. EskoDSK AI delivers enterprise-level assistance at a price built for small businesses.</p>
+										<h3>Affordable</h3>
+										<p>Enterprise-level technology built with small business budgets in mind.</p>
 									</li>
 									<li>
 										<span class="icon solid major style1 fa-code"></span>
 
 										<h3>Efficiency</h3>
-										<p>Automate repetitive tasks and respond to customers faster so your team can focus on higher-value work. Less busywork means more time to grow your business.</p>
+										<p>Reduce repetitive work and give your team more time to focus on customers and growth.</p>
 									</li>
 									<li>
 										<span class="icon major style3 fa-copy"></span>
 
-										<h3>Reliabaility</h3>
-										<p>Your AI employee is available 24/7, providing consistent support whenever your customers need it. No missed opportunities, no scheduling conflicts, and no downtime.</p>
+										<h3>Reliable</h3>
+										<p>Consistent support 24 hours a day, 7 days a week.</p>
+									</li>
+									<li>
+										<span class="icon solid major style2 fa-cogs"></span>
+										<h3>Customizable</h3>
+										<p>Every Virtual Employee is built specifically for your business.</p>
+									</li>
+									<li>
+										<span class="icon solid major style4 fa-rocket"></span>
+										<h3>Future Ready</h3>
+										<p>Your Virtual Employee grows as your business grows.</p>
 									</li>
 								</ul>
 							
@@ -83,32 +131,34 @@
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>How We Can Help Your Business</h2>
-									<p>Built for your business. Designed for your team. Ready to grow with you.</p>
+									<h2>What Makes a Virtual Employee Different?</h2>
+									<p>Unlike traditional business software, a Virtual Employee actively supports your operations.</p>
 								</header>
-								<ul class="statistics">
+								<ul class="statistics value-list">
 									<li class="style1">
 										<span class="icon solid fa-code-branch"></span>
-										<strong>Growing Teams</strong>
+										<strong>Answer customer questions instantly</strong>
 									</li>
 									<li class="style2">
 										<span class="icon fa-folder-open"></span>
-										<strong>Daily Operations</strong>
+										<strong>Guide customers through requests and services</strong>
 									</li>
 									<li class="style3">
 										<span class="icon solid fa-signal"></span>
-										<strong>Customer Support</strong>
+										<strong>Organize appointments, pickups, and quotes</strong>
 									</li>
 									<li class="style4">
 										<span class="icon solid fa-laptop"></span>
-										<strong>Business Automation</strong>
+										<strong>Automate repetitive administrative tasks</strong>
 									</li>
 									<li class="style5">
 										<span class="icon fa-gem"></span>
-										<strong>Competitive Advantage</strong>
+										<strong>Provide consistent support 24 hours a day</strong>
 									</li>
 								</ul>
-								<p class="content">No two businesses operate the same way, and neither should their AI employee. Whether you're in healthcare, medical courier services, property management, restaurants, professional services, retail, or another growing industry, EskoDSK AI creates AI employees that are customized to your workflows, customers, and day-to-day operations. From answering customer questions and scheduling appointments to organizing requests, managing communication, and supporting your team, every AI employee is designed to solve real business challenges. As your business grows, your AI employee grows with you—helping you deliver better service, improve efficiency, and stay focused on what matters most.</p>
+								<p>As EskoDSK continues to evolve, every Virtual Employee will become smarter, more interactive, and capable of providing deeper business support.</p>
+								<p><strong>Built for Small Businesses.</strong> No two businesses operate the same way, and neither should their Virtual Employee. EskoDSK builds customized Virtual Employees for growing businesses across industries including Medical Courier Services, Healthcare, Property Management, Professional Services, Restaurants, Retail, Home Services, Logistics, and many more. Each Virtual Employee is designed around the specific needs of your business, creating a solution that feels like another member of your team rather than another piece of software.</p>
+								<p><strong>The Future of EskoDSK.</strong> Avery is only the beginning. Our long-term vision is to build an entire ecosystem of customizable Virtual Employees that support entrepreneurs throughout every stage of business growth. Future Virtual Employees will not only manage customer communication but also provide business guidance, recommend improvements, automate increasingly complex workflows, and help owners make better decisions. Over time, EskoDSK will become a downloadable platform where every entrepreneur can build, customize, and grow alongside their own Digital Business Companion.</p>
 							
 							</section>
 
@@ -116,11 +166,12 @@
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Get Started</h2>
-									<p>We're currently accepting a limited number of beta clients at exclusive introductory pricing. This is your opportunity to work directly with the EskoDSK AI team, receive a custom AI employee built around your business, and lock in early adopter pricing before public launch. Request your free demo today and see how an AI employee can transform the way your business operates.</p>
+									<p>We're currently accepting a limited number of beta clients at exclusive introductory pricing.</p>
+									<p>This is your opportunity to work directly with the EskoDSK team, receive a customized Virtual Employee built around your business, and help shape the future of digital business support.</p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="book-demo.html" class="button primary">Book Your Demo!</a></li>
+										<li><a href="book-demo.html" class="button primary">Book Your Free Demo</a></li>
 										<li><a href="generic.html" class="button">Learn More</a></li>
 										<li><a href="founding-partners-program.html" class="button">Founding Partners Program</a></li>
 										<li><a href="business-development-program.html" class="button">Business Development Program</a></li>
@@ -133,8 +184,9 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>About EskoDSK AI</h2>
-							<p>EskoDSK AI builds intelligent AI employees that help small businesses save time, improve customer experiences, and streamline daily operations. Every AI employee is customized to your business, giving you reliable support that grows alongside your team.</p>
+							<h2>About EskoDSK</h2>
+							<p>EskoDSK develops Virtual Employees that help small businesses save time, improve customer experiences, and operate more efficiently.</p>
+							<p>Our mission is to make intelligent business support accessible to every entrepreneur by creating customizable Digital Business Companions that become smarter, more capable, and more valuable over time.</p>
 							</ul>
 						</section>
 						<section>
